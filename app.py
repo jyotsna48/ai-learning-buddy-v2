@@ -10,7 +10,7 @@ st.title("🎓 AI Learning Buddy")
 st.write("Ask any study-related question!")
 
 # Read API key from Streamlit Secrets
-client = genai.Client(api_key=st.secrets["GEMINI_API_KEY"])
+client = genai.Client(api_key="AQ.Ab8RN6L2eTe1Db-3oMeS8XHzCP162JbcE7BWmlpYiRVuXbPhOg")
 
 question = st.text_input("Enter your question")
 
